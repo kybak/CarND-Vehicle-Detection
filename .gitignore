@@ -1,0 +1,8 @@
+output_images/*
+__pycache__/*
+test_images/*
+training_images/*
+.idea/*
+project_video.mp4
+test_video.mp4
+model.p
