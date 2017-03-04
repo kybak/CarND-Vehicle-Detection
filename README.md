@@ -30,7 +30,7 @@ You're reading it!
 
 This can be found in `library.py` on line 91 in `get_hog_features()`. The method from skimage was used with defined parameters. The way I chose these parameters is explained below. Hog features were extracted from both cars and non-cars, as below.
 
-![alt text](examples/car_notcar.png)
+<img src="examples/car_notcar.png" width="400">
 
 I decided on extracting the features from all of the color channels because, as you can see below, some features can appear slightly different from channel to channel. Using all channels enabled me to have a more robust model.
 
