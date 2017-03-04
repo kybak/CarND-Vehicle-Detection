@@ -35,7 +35,7 @@ This can be found in `library.py` on line 91 in `get_hog_features()`. The method
 I decided on extracting the features from all of the color channels because, as you can see below, some features can appear slightly different from channel to channel. Using all channels enabled me to have a more robust model.
 
 
-![alt text][examples/hog_features.png]
+![alt text](examples/hog_features.png)
 
 
 ####2. Explain how you settled on your final choice of HOG parameters.
@@ -57,10 +57,10 @@ The code for the sliding window search can be found in `find_cars()` in `library
 
 As stated before I ended up using probability estimates which gave more accurate detections (more boxes). Features were extracted using a YCrCB 3-channel HOG feature extraction plus spatially binned color and histograms of color in the feature vector. Below are some example results.
 
-![alt text][examples/ex1.png]
-![alt text][examples/ex4.png]
-![alt text][examples/ex5.png]
-![alt text][examples/ex6.png]
+![alt text](examples/ex1.png)
+![alt text](examples/ex4.png)
+![alt text](examples/ex5.png)
+![alt text](examples/ex6.png)
 
 ### Video Implementation
 
@@ -74,12 +74,12 @@ A heat map was used to filter out false positives, though the classifier and fea
 
 Here's an example of the heat map on a test image. This converts all of the detection frames into a general area of fit.
 
-![alt text][examples/heat1.png]
-![alt text][examples/heat2.png]
+![alt text](examples/heat1.png)
+![alt text](examples/heat2.png)
 
 
 ### Here the resulting bounding boxes are drawn onto the test image:
-![alt text][examples/output.png]
+![alt text](examples/output.png)
 
 
 
